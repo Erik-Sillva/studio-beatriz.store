@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Os melhores penteados da região do Araripe, agende seu horário e saia com seu cabelo mais perfeito que nunca.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="./assets/img/studio-icon.png" type="image/x-icon">
+    <title>Studio Beatriz</title>
+</head>
+<body>
+    <div class="container-main">
+        <header>
+            <div class="container">
+                <div class="row flex-center justify-content-around">
+                    <div class="logo-container flex-center">
+                        <a href="index.html"><img src="./assets/img/logo-studio.png" style="width: 100px;" loading="lazy" alt="logo studio beatriz"></a>
+                    </div>
+
+                    <div class="container-itens-header flex-center">
+                        <form action="https://www.google.com/search" method="get" class="container-input bg-light d-flex">
+                            <input type="text" id="search" aria-label="pesquisar" placeholder="Pesquisar">
+                            <button type="submit" class="container-icon flex-center">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                        
+                        <div class="container-nav">
+                            <div class="toggle" aria-label="menu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <nav>
+                                <ul class="flex-center justify-content-between">
+                                    <li><a href="#sec-trancas">Tranças</a></li>
+                                    <li><a href="#sec-penteados">Penteados</a></li>
+                                    <li><a href="#agendar-horario.html">Agendar Horário</a></li>
+                                    <li><a href="#contato">Contato</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="row">
+                    <section class="sec-popular flex-center">
+                        <h1>Mais Populares</h1>
+                        <div class="container-cover flex-center">
+                            <div class="box-column flex-center">
+                                <div class="container-inner-cover flex-center">
+                                    <div class="cover">
+                                        <a href="#boxeadoras" aria-label="clique para ir para a categoria tranças boxeadoras">
+                                            <img src="./assets/img/circle-imgs/boxeadora.png" alt="tranças boxeadoras">
+                                        </a>
+                                    </div>
+                                    <a href="#boxeadoras">
+                                        <h3 aria-label="boxeadoras">Boxeadoras</h3>
+                                    </a>
+                                </div>
+
+                                <div class="container-inner-cover flex-center">
+                                    <div class="cover">
+                                        <a href="#nagotopo" aria-label="clique para ir para a categoria nago topo">
+                                            <img src="./assets/img/circle-imgs/nago-topo-4-trancas-branca.png" alt="nago topo">
+                                        </a>
+                                    </div>
+                                    <a href="#nagotopo">
+                                        <h3 aria-label="nago topo">Nagô Topo</h3>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="box-column flex-center">
+                                <div class="container-inner-cover flex-center">
+                                    <div class="cover">
+                                        <a href="#finalizacao" aria-label="clique para ir para a categoria finalizacao">
+                                            <img src="./assets/img/circle-imgs/finalizacao2.png" alt="finalizacao">
+                                        </a>
+                                    </div>
+                                    <a href="#finalizacao">
+                                        <h3 aria-label="finalizacao">Finalização</h3>
+                                    </a>
+                                </div>
+
+                                <div class="container-inner-cover flex-center">
+                                    <div class="cover">
+                                        <a href="#bubbles" aria-label="clique para ir para a categoria bubbles">
+                                            <img src="./assets/img/circle-imgs/tranca-frontal-bubbles.png" alt="tranca frontal mais bubbles">
+                                        </a>
+                                    </div>
+                                    <a href="#bubbles">
+                                        <h3 aria-label="bubbles">Bubbles</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="row">
+                    <section id="sec-trancas" class="sec-itens">
+                        <h2 class="mb-5">Tranças</h2>
+
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card-product">
+                                        <div class="card-images flex-center">
+                                            <div class="card-bg-images" id="boxeadora"></div>
+                                        </div>
+
+                                        <div class="card-info">
+                                            <h4 class="title" aria-label="boxeadora">Boxeadora</h3>
+                                            <h5 class="price" aria-label="trinta reais">R$30,00</h5>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow('Boxeadora', 30.00)">Agendar Horário</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="card-product">
+                                        <div class="card-images flex-center">
+                                            <div class="card-bg-images" id="nago-tiara"></div>
+                                        </div>
+
+                                        <div class="card-info">
+                                            <h4 class="title" aria-label="nago tiara">Nago Tiara</h3>
+                                            <h5 class="price" aria-label="trinta e seis reais">R$36,00</h5>
+                                            <h6 aria-label="sem acessórios trinta e três reais">Sem acessórios: R$33,00</h6>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow('Nago Tiara', 36.00, 33.00)">Agendar Horário</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="card-product">
+                                        <div class="card-images flex-center">
+                                            <div class="card-bg-images" id="nago-topo-branca"></div>
+                                        </div>
+
+                                        <div class="card-info">
+                                            <h4 class="title" aria-label="nago topo">Nago Topo</h3>
+                                            <h5 class="price" aria-label="vinte e oito reais">R$28,00</h5>
+                                            <h6 aria-label="sem acessórios vinte e três reais">Sem acessórios: R$23,00</h6>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow('Nago Topo', 28.00, 23.00)">Agendar Horário</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="card-product">
+                                        <div class="card-images flex-center">
+                                            <div class="card-bg-images" id="nago-topo-popular"></div>
+                                        </div>
+
+                                        <div class="card-info">
+                                            <h4 class="title" aria-label="nago topo com rabo de cavalo">Nago Topo com rabo de cavalo</h4>
+                                            <h5 class="price" aria-label="vinte reais">R$20,00</h5>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow('Nago Topo com rabo de cavalo', 20.00)">Agendar Horário</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="card-product">
+                                        <div class="card-images flex-center">
+                                            <div class="card-bg-images" id="nago-lateral-desenhada"></div>
+                                        </div>
+
+                                        <div class="card-info">
+                                            <h4 class="title" aria-label="lateral desenhada">Lateral Desenhada</h3>
+                                            <h5 class="price" aria-label="trinta e cinco reais e cinquenta centavos">R$35,50</h5>
+                                            <h6 aria-label="sem acessórios trinta e cinco reais">Sem acessórios: R$35,00</h6>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow('Lateral Desenhada', 35.50, 35.00)">Agendar Horário</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="card-product">
+                                        <div class="card-images flex-center">
+                                            <div class="card-bg-images" id="nago-topo-bubbles"></div>
+                                        </div>
+
+                                        <div class="card-info">
+                                            <h4 class="title" aria-label="nago topo mais bubbles e linha azul">Nago + Bubbles</h3>
+                                            <h5 class="price" aria-label="trinta e cinco reais">R$35,00</h5>
+                                            <h6 aria-label="sem acessórios vinte e sete reais">Sem acessórios: R$27,00</h6>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow('Nago + Bubbles', 35.00, 27.00)">Agendar Horário</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="card-product">
+                                        <div class="card-images flex-center">
+                                            <div class="card-bg-images" id="nago-topo-bubbles-popular"></div>
+                                        </div>
+
+                                        <div class="card-info">
+                                            <h4 class="title" style="margin-bottom: 0;" aria-label="nago topo popular mais bubbles sem linha">Nago + Bubbles <span class="fs-6" style="margin-bottom: 10px;">sem linha</span></h4>
+                                            <h5 class="price" aria-label="trinta e dois reais">R$32,00</h5>
+                                            <h6 aria-label="sem acessórios vinte e sete reais">Sem acessórios: R$27</h6>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow('Nago + Bubbles Sem Linha', 32.00, 27.00)">Agendar Horário</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="card-product">
+                                        <div class="card-images flex-center">
+                                            <div class="card-bg-images" id="nago-topo-bubbles-three"></div>
+                                        </div>
+
+                                        <div class="card-info">
+                                            <h4 class="title" aria-label="nago topo mais bubbles e linhas rosas com brancas">Nago + Bubbles</h4>
+                                            <h5 class="price" aria-label="trinta e cinco reais">R$35,00</h5>
+                                            <h6 aria-label="sem acessórios vinte e sete reais">Sem acessórios: R$27</h6>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow('Nago + Bubbles 2', 35.00, 27.00)">Agendar Horário</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="row">
+                    <section id="sec-penteados" class="sec-itens">
+                        <h2 class="mb-5">Penteados</h2>
+
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card-product">
+                                        <div class="card-images flex-center">
+                                            <div class="card-bg-images" id="ponytail"></div>
+                                        </div>
+
+                                        <div class="card-info">
+                                            <h4 class="title" aria-label="ponytail">Ponytail</h3>
+                                            <h5 class="price" aria-label="sessenta reais">R$60,00</h5>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow()">Agendar Horário</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="card-product">
+                                        <div class="card-images flex-center">
+                                            <div class="card-bg-images" id="coque-lateral"></div>
+                                        </div>
+
+                                        <div class="card-info">
+                                            <h4 class="title" aria-label="coque lateral">Coque Lateral</h3>
+                                            <h5 class="price" aria-label="quarenta e cinco reais">R$45,00</h5>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow()">Agendar Horário</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="card-product">
+                                        <div class="card-images flex-center">
+                                            <div class="card-bg-images" id="semi-preso-com-tranca"></div>
+                                        </div>
+
+                                        <div class="card-info">
+                                            <h4 class="title" aria-label="nago topo">Semi Preso Com Trança</h3>
+                                            <h5 class="price" aria-label="cinquenta reais">R$50,00</h5>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow()">Agendar Horário</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="card-product">
+                                        <div class="card-images flex-center">
+                                            <div class="card-bg-images" id="finalizacao"></div>
+                                        </div>
+
+                                        <div class="card-info">
+                                            <h4 class="title" aria-label="finalização">Finalização</h4>
+                                            <h5 class="price" aria-label="vinte e cinco reais">R$25,00</h5>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow()">Agendar Horário</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="card-product">
+                                        <div class="card-images flex-center">
+                                            <div class="card-bg-images" id="torcoes"></div>
+                                        </div>
+
+                                        <div class="card-info">
+                                            <h4 class="title" aria-label="torções">Torções</h3>
+                                            <h5 class="price" aria-label="trinta e cinco reais">R$35,00</h5>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow()">Agendar Horário</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="card-product">
+                                        <div class="card-images flex-center">
+                                            <div class="card-bg-images" id="escova-e-babyliss"></div>
+                                        </div>
+
+                                        <div class="card-info">
+                                            <h4 class="title" aria-label="Escova mais babyliss">Escova + Babyliss</h3>
+                                            <h5 class="price" aria-label="trinta e cinco reais">R$35,00</h5>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow()">Agendar Horário</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="card-product">
+                                        <div class="card-images flex-center">
+                                            <div class="card-bg-images" id="finalizacao-e-trancas"></div>
+                                        </div>
+
+                                        <div class="card-info">
+                                            <h4 class="title" aria-label="finalização mais tranças">Finalização + tranças</h4>
+                                            <h5 class="price" aria-label="vinte e cinco reais">R$25,00</h5>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow()">Agendar Horário</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="card-product">
+                                        <div class="card-images flex-center">
+                                            <div class="card-bg-images" id="rabo-lateral-com-tranca"></div>
+                                        </div>
+
+                                        <div class="card-info">
+                                            <h4 class="title" aria-label="nago topo mais bubbles e linhas rosas com brancas">Rabo Lateral Com Trança</h4>
+                                            <h5 class="price" aria-label="trinta e cinco reais">R$35,00</h5>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow()">Agendar Horário</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="row mt-5">
+                    <section class="sec-about">
+                        <div class="container-about-img">
+                            <div class="about-img border">
+                                <img src="./assets/img/ela.jpeg" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="about">
+                            <h5>Beatriz Oliveira</h5>
+                            <p>
+                                Sou trancista e estou no ramo da beleza a 1 ano, sempre buscando me aperfeiçoar e entregar um trabalho de extrema qualidade e confiança para as minhas clientes
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/06dbd9c6a8.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
