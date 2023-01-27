@@ -58,24 +58,24 @@
                         <h1>Mais Populares</h1>
                         <div class="container-cover flex-center">
                             <div class="box-column flex-center">
-                                <div class="container-inner-cover flex-center">
+                                <div class="container-inner-cover flex-center"> 
                                     <div class="cover">
-                                        <a href="#boxeadoras" aria-label="clique para ir para a categoria tranças boxeadoras">
+                                        <a href="#boxeadora" aria-label="clique para ir para a categoria tranças boxeadoras">
                                             <img src="./assets/img/circle-imgs/boxeadora.png" alt="tranças boxeadoras">
                                         </a>
                                     </div>
-                                    <a href="#boxeadoras">
+                                    <a href="#boxeadora">
                                         <h3 aria-label="boxeadoras">Boxeadoras</h3>
                                     </a>
                                 </div>
 
                                 <div class="container-inner-cover flex-center">
                                     <div class="cover">
-                                        <a href="#nagotopo" aria-label="clique para ir para a categoria nago topo">
+                                        <a href="#nago-topo-branca" aria-label="clique para ir para a categoria nago topo">
                                             <img src="./assets/img/circle-imgs/nago-topo-4-trancas-branca.png" alt="nago topo">
                                         </a>
                                     </div>
-                                    <a href="#nagotopo">
+                                    <a href="#nago-topo-branca">
                                         <h3 aria-label="nago topo">Nagô Topo</h3>
                                     </a>
                                 </div>
@@ -95,11 +95,11 @@
 
                                 <div class="container-inner-cover flex-center">
                                     <div class="cover">
-                                        <a href="#bubbles" aria-label="clique para ir para a categoria bubbles">
+                                        <a href="#nago-topo-bubbles-popular" aria-label="clique para ir para a categoria bubbles">
                                             <img src="./assets/img/circle-imgs/tranca-frontal-bubbles.png" alt="tranca frontal mais bubbles">
                                         </a>
                                     </div>
-                                    <a href="#bubbles">
+                                    <a href="#nago-topo-bubbles-popular">
                                         <h3 aria-label="bubbles">Bubbles</h3>
                                     </a>
                                 </div>
@@ -121,9 +121,9 @@
                                         </div>
 
                                         <div class="card-info">
-                                            <h4 class="title" aria-label="boxeadora">Boxeadora</h3>
+                                            <h4 class="title" aria-label="boxeadora">Boxeadora</h4>
                                             <h5 class="price" aria-label="trinta reais">R$30,00</h5>
-                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow('Boxeadora', 30.00, false)">
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="sendWhatsAppButton('Boxeadora', 'R$30,00', false)">
                                                 Agendar Horário
                                             </button>
                                         </div>
@@ -137,10 +137,10 @@
                                         </div>
 
                                         <div class="card-info">
-                                            <h4 class="title" aria-label="nago tiara">Nago Tiara</h3>
+                                            <h4 class="title" aria-label="nago tiara">Nago Tiara</h4>
                                             <h5 class="price" aria-label="trinta e seis reais">R$36,00</h5>
                                             <h6 aria-label="sem acessórios trinta e três reais">Sem acessórios: R$33,00</h6>
-                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow('Nago Tiara', 36.00, 33.00)">Agendar Horário</button>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="sendWhatsAppButton('Nago Tiara', 'R$36,00', 'R$33,00')">Agendar Horário</button>
                                         </div>
                                     </div>
                                 </div>
@@ -152,10 +152,10 @@
                                         </div>
 
                                         <div class="card-info">
-                                            <h4 class="title" aria-label="nago topo">Nago Topo</h3>
+                                            <h4 class="title" aria-label="nago topo">Nago Topo</h4>
                                             <h5 class="price" aria-label="vinte e oito reais">R$28,00</h5>
                                             <h6 aria-label="sem acessórios vinte e três reais">Sem acessórios: R$23,00</h6>
-                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow('Nago Topo', 28.00, 23.00)">Agendar Horário</button>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="sendWhatsAppButton('Nago Topo', '28,00', '23,00')">Agendar Horário</button>
                                         </div>
                                     </div>
                                 </div>
@@ -169,7 +169,7 @@
                                         <div class="card-info">
                                             <h4 class="title" aria-label="nago topo com rabo de cavalo">Nago Topo com rabo de cavalo</h4>
                                             <h5 class="price" aria-label="vinte reais">R$20,00</h5>
-                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow('Nago Topo com rabo de cavalo', 20.00)">Agendar Horário</button>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="sendWhatsAppButton('Nago Topo com rabo de cavalo', '20,00',false)">Agendar Horário</button>
                                         </div>
                                     </div>
                                 </div>
@@ -181,10 +181,25 @@
                                         </div>
 
                                         <div class="card-info">
-                                            <h4 class="title" aria-label="lateral desenhada">Lateral Desenhada</h3>
+                                            <h4 class="title" style="margin-bottom: 5px;" aria-label="lateral desenhada">Lateral Desenhada <span class="fs-6">(Coração)</span></h4>
                                             <h5 class="price" aria-label="trinta e cinco reais e cinquenta centavos">R$35,50</h5>
                                             <h6 aria-label="sem acessórios trinta e cinco reais">Sem acessórios: R$35,00</h6>
-                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow('Lateral Desenhada', 35.50, 35.00)">Agendar Horário</button>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="sendWhatsAppButton('Lateral Desenhada', '35,50', '35,00')">Agendar Horário</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="card-product">
+                                        <div class="card-images flex-center">
+                                            <div class="card-bg-images" id="nago-lateral-cruzada"></div>
+                                        </div>
+
+                                        <div class="card-info">
+                                            <h4 class="title" style="margin-bottom: 5px;" aria-label="lateral cruzada">Lateral Cruzada</h4>
+                                            <h5 class="price" aria-label="trinta e um reais">R$31,00</h5>
+                                            <h6 aria-label="sem acessórios trinta reais">Sem acessórios: R$30,00</h6>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="sendWhatsAppButton('Lateral Cruzada', 'R$31,00', 'R$30,00')">Agendar Horário</button>
                                         </div>
                                     </div>
                                 </div>
@@ -196,10 +211,10 @@
                                         </div>
 
                                         <div class="card-info">
-                                            <h4 class="title" aria-label="nago topo mais bubbles e linha azul">Nago + Bubbles</h3>
+                                            <h4 class="title" aria-label="nago topo mais bubbles e linha azul">Nago + Bubbles</h4>
                                             <h5 class="price" aria-label="trinta e cinco reais">R$35,00</h5>
                                             <h6 aria-label="sem acessórios vinte e sete reais">Sem acessórios: R$27,00</h6>
-                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow('Nago + Bubbles', 35.00, 27.00)">Agendar Horário</button>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="sendWhatsAppButton('Nago + Bubbles', '35,00', '27,00')">Agendar Horário</button>
                                         </div>
                                     </div>
                                 </div>
@@ -214,7 +229,7 @@
                                             <h4 class="title" style="margin-bottom: 0;" aria-label="nago topo popular mais bubbles sem linha">Nago + Bubbles <span class="fs-6" style="margin-bottom: 10px;">sem linha</span></h4>
                                             <h5 class="price" aria-label="trinta e dois reais">R$32,00</h5>
                                             <h6 aria-label="sem acessórios vinte e sete reais">Sem acessórios: R$27</h6>
-                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow('Nago + Bubbles Sem Linha', 32.00, 27.00)">Agendar Horário</button>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="sendWhatsAppButton('Nago + Bubbles Sem Linha', '32,00', '27,00')">Agendar Horário</button>
                                         </div>
                                     </div>
                                 </div>
@@ -229,7 +244,7 @@
                                             <h4 class="title" aria-label="nago topo mais bubbles e linhas rosas com brancas">Nago + Bubbles</h4>
                                             <h5 class="price" aria-label="trinta e cinco reais">R$35,00</h5>
                                             <h6 aria-label="sem acessórios vinte e sete reais">Sem acessórios: R$27</h6>
-                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow('Nago + Bubbles 2', 35.00, 27.00)">Agendar Horário</button>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="sendWhatsAppButton('Nago + Bubbles', '35,00', '27,00')">Agendar Horário</button>
                                         </div>
                                     </div>
                                 </div>
@@ -253,7 +268,7 @@
                                         <div class="card-info">
                                             <h4 class="title" aria-label="ponytail">Ponytail</h3>
                                             <h5 class="price" aria-label="sessenta reais">R$60,00</h5>
-                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow()">Agendar Horário</button>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="sendWhatsAppButton('Ponytail', 'R$60,00', false)">Agendar Horário</button>
                                         </div>
                                     </div>
                                 </div>
@@ -267,7 +282,7 @@
                                         <div class="card-info">
                                             <h4 class="title" aria-label="coque lateral">Coque Lateral</h3>
                                             <h5 class="price" aria-label="quarenta e cinco reais">R$45,00</h5>
-                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow()">Agendar Horário</button>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="sendWhatsAppButton('Coque Lateral', 'R$45,00', false)">Agendar Horário</button>
                                         </div>
                                     </div>
                                 </div>
@@ -281,7 +296,7 @@
                                         <div class="card-info">
                                             <h4 class="title" aria-label="nago topo">Semi Preso Com Trança</h3>
                                             <h5 class="price" aria-label="cinquenta reais">R$50,00</h5>
-                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow()">Agendar Horário</button>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="sendWhatsAppButton('Semi Preso Com Trança', 'R$50,00', false)">Agendar Horário</button>
                                         </div>
                                     </div>
                                 </div>
@@ -295,7 +310,7 @@
                                         <div class="card-info">
                                             <h4 class="title" aria-label="finalização">Finalização</h4>
                                             <h5 class="price" aria-label="vinte e cinco reais">R$25,00</h5>
-                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow()">Agendar Horário</button>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="sendWhatsAppButton('Finalização', 'R$25,00', false)">Agendar Horário</button>
                                         </div>
                                     </div>
                                 </div>
@@ -309,7 +324,7 @@
                                         <div class="card-info">
                                             <h4 class="title" aria-label="torções">Torções</h3>
                                             <h5 class="price" aria-label="trinta e cinco reais">R$35,00</h5>
-                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow()">Agendar Horário</button>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="sendWhatsAppButton('Torções', 'R$35,00', false)">Agendar Horário</button>
                                         </div>
                                     </div>
                                 </div>
@@ -323,7 +338,7 @@
                                         <div class="card-info">
                                             <h4 class="title" aria-label="Escova mais babyliss">Escova + Babyliss</h3>
                                             <h5 class="price" aria-label="trinta e cinco reais">R$35,00</h5>
-                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow()">Agendar Horário</button>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="sendWhatsAppButton('Escova + Babyliss', 'R$35,00', false)">Agendar Horário</button>
                                         </div>
                                     </div>
                                 </div>
@@ -337,7 +352,7 @@
                                         <div class="card-info">
                                             <h4 class="title" aria-label="finalização mais tranças">Finalização + tranças</h4>
                                             <h5 class="price" aria-label="vinte e cinco reais">R$25,00</h5>
-                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow()">Agendar Horário</button>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="sendWhatsAppButton('Finalização + tranças', 'R$25,00', false)">Agendar Horário</button>
                                         </div>
                                     </div>
                                 </div>
@@ -351,7 +366,7 @@
                                         <div class="card-info">
                                             <h4 class="title" aria-label="nago topo mais bubbles e linhas rosas com brancas">Rabo Lateral Com Trança</h4>
                                             <h5 class="price" aria-label="trinta e cinco reais">R$35,00</h5>
-                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="openWindow()">Agendar Horário</button>
+                                            <button class="btn btn-primary" aria-label="agendar horário" onclick="sendWhatsAppButton('Rabo Lateral Com Trança', 'R$35,00', false)">Agendar Horário</button>
                                         </div>
                                     </div>
                                 </div>
@@ -373,6 +388,17 @@
                             <p>
                                 Sou trancista e estou no ramo da beleza a 1 ano, sempre buscando me aperfeiçoar e entregar um trabalho de extrema qualidade e confiança para as minhas clientes
                             </p>
+
+                            <p>
+                                <div class="container-social-links d-flex">
+                                    <div class="container-icon-links me-2">
+                                        <a href="https://wa.me/5587996430390?" target="_blank"><i class="fa-brands fa-whatsapp fs-4"></i></a>
+                                    </div>
+                                    <div class="container-icon-links">
+                                        <a href="https://www.instagram.com/studio_.beatriz/" target="_blank"><i class="fa-brands fa-instagram fs-4"></i></a>
+                                    </div>
+                                </div>
+                            </p>
                         </div>
                     </section>
                 </div>
@@ -384,6 +410,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/06dbd9c6a8.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.min.js"></script>
 </body>
 </html>

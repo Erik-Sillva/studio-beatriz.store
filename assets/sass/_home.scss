@@ -242,6 +242,9 @@ h1, h2, h3, h4, h5, h6, a, p, span {
                                         #nago-lateral-desenhada {
                                             background: url(../img/lateral-desenhada.jpeg) no-repeat 0% 75%/cover; 
                                         }
+                                        #nago-lateral-cruzada {
+                                            background: url(../img/lateral-cruzada.jpg) no-repeat 0% 56%/cover; 
+                                        }
                                         #nago-topo-bubbles {
                                             background: url(../img/nago-topo-4-trancas.jpeg) no-repeat 0% 35%/cover; 
                                         }
@@ -329,6 +332,18 @@ h1, h2, h3, h4, h5, h6, a, p, span {
                         p {
                             line-height: 30px;
                         }
+                        .container-social-links {
+                            .container-icon-links {
+                                a {
+                                    .fa-whatsapp {
+                                        color: #25D366;
+                                    }
+                                    .fa-instagram {
+                                        color: #C13584;
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -344,46 +359,6 @@ h1, h2, h3, h4, h5, h6, a, p, span {
         a {
             i {
                 font-size: 1.5em;
-            }
-        }
-    }
-
-    .row {
-        #form-horario {
-            border: 2px solid rgba(0, 0, 0, .2);
-            width: 500px;
-            margin: auto;
-            padding: 15px;
-            .container-info {
-                display: flex;
-                flex-direction: column;
-
-                label {
-                    margin: 5px 0;
-                }
-
-                input {
-                    border: 1px solid rgba(0, 0, 0, 0.288);
-                    border-radius: 5px;
-                    padding: 5px 10px;
-                    margin: 5px 0;
-                }
-            }
-
-            .container-img {
-                margin-top: 2em;
-                justify-content: center;
-                align-items: center;
-                .box-img {
-                    width: 300px;
-                    height: 300px;
-                    margin: auto auto 1em auto;
-                    overflow: hidden;
-
-                    img {
-                        width: 100%;
-                    }
-                }
             }
         }
     }
