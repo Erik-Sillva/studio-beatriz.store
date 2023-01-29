@@ -72,24 +72,6 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 
                 .container-itens-header {
                     width: 800px;
-                    .container-input {
-                        margin-right: 1em;
-                        padding: 5px 15px;
-                        border-radius: 5px;
-        
-                        input {
-                            background: transparent;
-                        }
-        
-                        .container-icon {
-                            padding-left: 5px;
-                            background: transparent;
-                            i {
-                                color: var(--color-pimery);
-                                font-size: 1.3em;
-                            }
-                        }
-                    }
                     .container-nav {
                         nav {
                             ul {
@@ -341,24 +323,14 @@ h1, h2, h3, h4, h5, h6, a, p, span {
                                     .fa-instagram {
                                         color: #C13584;
                                     }
+                                    .fa-link {
+                                        color: #41BFB3;
+                                    }
                                 }
                             }
                         }
                     }
                 }
-            }
-        }
-    }
-
-    .container-icon-two {
-        position: absolute;
-        left: 0;
-        top: 0;
-        padding: 0 5px;
-
-        a {
-            i {
-                font-size: 1.5em;
             }
         }
     }
